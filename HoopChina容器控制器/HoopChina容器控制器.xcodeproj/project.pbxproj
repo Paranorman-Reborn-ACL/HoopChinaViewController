@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0216842F1E470995000B2A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0216842E1E470995000B2A98 /* main.m */; };
+		021684321E470995000B2A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684311E470995000B2A98 /* AppDelegate.m */; };
+		021684351E470995000B2A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684341E470995000B2A98 /* ViewController.m */; };
+		021684381E470995000B2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021684361E470995000B2A98 /* Main.storyboard */; };
+		0216843A1E470995000B2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021684391E470995000B2A98 /* Assets.xcassets */; };
+		0216843D1E470995000B2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0216843B1E470995000B2A98 /* LaunchScreen.storyboard */; };
+		021684481E470995000B2A98 /* HoopChina_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684471E470995000B2A98 /* HoopChina_____Tests.m */; };
+		021684531E470995000B2A98 /* HoopChina_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684521E470995000B2A98 /* HoopChina_____UITests.m */; };
+		021684621E470A15000B2A98 /* AGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684611E470A15000B2A98 /* AGRootViewController.m */; };
+		021684651E470A45000B2A98 /* AGChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021684641E470A45000B2A98 /* AGChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021684441E470995000B2A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021684221E470994000B2A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021684291E470994000B2A98;
+			remoteInfo = "HoopChina容器控制器";
+		};
+		0216844F1E470995000B2A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021684221E470994000B2A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021684291E470994000B2A98;
+			remoteInfo = "HoopChina容器控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0216842A1E470995000B2A98 /* HoopChina容器控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HoopChina容器控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0216842E1E470995000B2A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		021684301E470995000B2A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		021684311E470995000B2A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		021684331E470995000B2A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		021684341E470995000B2A98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		021684371E470995000B2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		021684391E470995000B2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0216843C1E470995000B2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0216843E1E470995000B2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021684431E470995000B2A98 /* HoopChina容器控制器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoopChina容器控制器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		021684471E470995000B2A98 /* HoopChina_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HoopChina_____Tests.m"; sourceTree = "<group>"; };
+		021684491E470995000B2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0216844E1E470995000B2A98 /* HoopChina容器控制器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoopChina容器控制器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		021684521E470995000B2A98 /* HoopChina_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HoopChina_____UITests.m"; sourceTree = "<group>"; };
+		021684541E470995000B2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021684601E470A15000B2A98 /* AGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRootViewController.h; sourceTree = "<group>"; };
+		021684611E470A15000B2A98 /* AGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRootViewController.m; sourceTree = "<group>"; };
+		021684631E470A45000B2A98 /* AGChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGChildViewController.h; sourceTree = "<group>"; };
+		021684641E470A45000B2A98 /* AGChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021684271E470994000B2A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021684401E470995000B2A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0216844B1E470995000B2A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021684211E470994000B2A98 = {
+			isa = PBXGroup;
+			children = (
+				0216842C1E470995000B2A98 /* HoopChina容器控制器 */,
+				021684461E470995000B2A98 /* HoopChina容器控制器Tests */,
+				021684511E470995000B2A98 /* HoopChina容器控制器UITests */,
+				0216842B1E470995000B2A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0216842B1E470995000B2A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0216842A1E470995000B2A98 /* HoopChina容器控制器.app */,
+				021684431E470995000B2A98 /* HoopChina容器控制器Tests.xctest */,
+				0216844E1E470995000B2A98 /* HoopChina容器控制器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0216842C1E470995000B2A98 /* HoopChina容器控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				021684301E470995000B2A98 /* AppDelegate.h */,
+				021684311E470995000B2A98 /* AppDelegate.m */,
+				021684331E470995000B2A98 /* ViewController.h */,
+				021684341E470995000B2A98 /* ViewController.m */,
+				021684601E470A15000B2A98 /* AGRootViewController.h */,
+				021684611E470A15000B2A98 /* AGRootViewController.m */,
+				021684631E470A45000B2A98 /* AGChildViewController.h */,
+				021684641E470A45000B2A98 /* AGChildViewController.m */,
+				021684361E470995000B2A98 /* Main.storyboard */,
+				021684391E470995000B2A98 /* Assets.xcassets */,
+				0216843B1E470995000B2A98 /* LaunchScreen.storyboard */,
+				0216843E1E470995000B2A98 /* Info.plist */,
+				0216842D1E470995000B2A98 /* Supporting Files */,
+			);
+			path = "HoopChina容器控制器";
+			sourceTree = "<group>";
+		};
+		0216842D1E470995000B2A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0216842E1E470995000B2A98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		021684461E470995000B2A98 /* HoopChina容器控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				021684471E470995000B2A98 /* HoopChina_____Tests.m */,
+				021684491E470995000B2A98 /* Info.plist */,
+			);
+			path = "HoopChina容器控制器Tests";
+			sourceTree = "<group>";
+		};
+		021684511E470995000B2A98 /* HoopChina容器控制器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				021684521E470995000B2A98 /* HoopChina_____UITests.m */,
+				021684541E470995000B2A98 /* Info.plist */,
+			);
+			path = "HoopChina容器控制器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021684291E470994000B2A98 /* HoopChina容器控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021684571E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器" */;
+			buildPhases = (
+				021684261E470994000B2A98 /* Sources */,
+				021684271E470994000B2A98 /* Frameworks */,
+				021684281E470994000B2A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HoopChina容器控制器";
+			productName = "HoopChina容器控制器";
+			productReference = 0216842A1E470995000B2A98 /* HoopChina容器控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		021684421E470995000B2A98 /* HoopChina容器控制器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0216845A1E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器Tests" */;
+			buildPhases = (
+				0216843F1E470995000B2A98 /* Sources */,
+				021684401E470995000B2A98 /* Frameworks */,
+				021684411E470995000B2A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021684451E470995000B2A98 /* PBXTargetDependency */,
+			);
+			name = "HoopChina容器控制器Tests";
+			productName = "HoopChina容器控制器Tests";
+			productReference = 021684431E470995000B2A98 /* HoopChina容器控制器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0216844D1E470995000B2A98 /* HoopChina容器控制器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0216845D1E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器UITests" */;
+			buildPhases = (
+				0216844A1E470995000B2A98 /* Sources */,
+				0216844B1E470995000B2A98 /* Frameworks */,
+				0216844C1E470995000B2A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021684501E470995000B2A98 /* PBXTargetDependency */,
+			);
+			name = "HoopChina容器控制器UITests";
+			productName = "HoopChina容器控制器UITests";
+			productReference = 0216844E1E470995000B2A98 /* HoopChina容器控制器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021684221E470994000B2A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Paranorman;
+				TargetAttributes = {
+					021684291E470994000B2A98 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					021684421E470995000B2A98 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 021684291E470994000B2A98;
+					};
+					0216844D1E470995000B2A98 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 021684291E470994000B2A98;
+					};
+				};
+			};
+			buildConfigurationList = 021684251E470994000B2A98 /* Build configuration list for PBXProject "HoopChina容器控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021684211E470994000B2A98;
+			productRefGroup = 0216842B1E470995000B2A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021684291E470994000B2A98 /* HoopChina容器控制器 */,
+				021684421E470995000B2A98 /* HoopChina容器控制器Tests */,
+				0216844D1E470995000B2A98 /* HoopChina容器控制器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021684281E470994000B2A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0216843D1E470995000B2A98 /* LaunchScreen.storyboard in Resources */,
+				0216843A1E470995000B2A98 /* Assets.xcassets in Resources */,
+				021684381E470995000B2A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021684411E470995000B2A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0216844C1E470995000B2A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021684261E470994000B2A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021684621E470A15000B2A98 /* AGRootViewController.m in Sources */,
+				021684651E470A45000B2A98 /* AGChildViewController.m in Sources */,
+				021684351E470995000B2A98 /* ViewController.m in Sources */,
+				021684321E470995000B2A98 /* AppDelegate.m in Sources */,
+				0216842F1E470995000B2A98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0216843F1E470995000B2A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021684481E470995000B2A98 /* HoopChina_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0216844A1E470995000B2A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021684531E470995000B2A98 /* HoopChina_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021684451E470995000B2A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021684291E470994000B2A98 /* HoopChina容器控制器 */;
+			targetProxy = 021684441E470995000B2A98 /* PBXContainerItemProxy */;
+		};
+		021684501E470995000B2A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021684291E470994000B2A98 /* HoopChina容器控制器 */;
+			targetProxy = 0216844F1E470995000B2A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		021684361E470995000B2A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021684371E470995000B2A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0216843B1E470995000B2A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0216843C1E470995000B2A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021684551E470995000B2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		021684561E470995000B2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		021684581E470995000B2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HoopChina容器控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		021684591E470995000B2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HoopChina容器控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0216845B1E470995000B2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HoopChina容器控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopChina容器控制器.app/HoopChina容器控制器";
+			};
+			name = Debug;
+		};
+		0216845C1E470995000B2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HoopChina容器控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopChina容器控制器.app/HoopChina容器控制器";
+			};
+			name = Release;
+		};
+		0216845E1E470995000B2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HoopChina容器控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HoopChina容器控制器";
+			};
+			name = Debug;
+		};
+		0216845F1E470995000B2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HoopChina容器控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "paranorman.com.HoopChina-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HoopChina容器控制器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021684251E470994000B2A98 /* Build configuration list for PBXProject "HoopChina容器控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021684551E470995000B2A98 /* Debug */,
+				021684561E470995000B2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021684571E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021684581E470995000B2A98 /* Debug */,
+				021684591E470995000B2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0216845A1E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0216845B1E470995000B2A98 /* Debug */,
+				0216845C1E470995000B2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0216845D1E470995000B2A98 /* Build configuration list for PBXNativeTarget "HoopChina容器控制器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0216845E1E470995000B2A98 /* Debug */,
+				0216845F1E470995000B2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 021684221E470994000B2A98 /* Project object */;
+}
